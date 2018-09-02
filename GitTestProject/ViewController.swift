@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  GitTestProject
-//
-//  Created by Synechron2 on 9/2/18.
-//  Copyright © 2018 Synechron. All rights reserved.
-//
+//testing changes
 
 import UIKit
 
@@ -19,7 +13,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
