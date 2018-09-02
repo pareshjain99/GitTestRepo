@@ -194,7 +194,7 @@
 					B36591AE213BD269008EA0FA = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N6ZJQTRK2Z;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					B36591C2213BD269008EA0FA = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -415,11 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = N6ZJQTRK2Z;
 				INFOPLIST_FILE = GitTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synechron.enterprise.GitTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "120c5493-fb27-45da-a477-1e507798d10e";
+				PROVISIONING_PROFILE_SPECIFIER = NewSynechronInHouseWildcard;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +431,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = N6ZJQTRK2Z;
 				INFOPLIST_FILE = GitTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synechron.enterprise.GitTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "120c5493-fb27-45da-a477-1e507798d10e";
+				PROVISIONING_PROFILE_SPECIFIER = NewSynechronInHouseWildcard;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
